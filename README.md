@@ -19,10 +19,9 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 - [Tools & Technologies Used](#tools--technologies-used)  
 - [Methodology](#methodology)  
 - [Ethical Considerations](#ethical-considerations)  
-- [Learning Outcomes](#learning-outcomes)  
-- [Screenshots](#screenshots)  
-- [Resume Description](#resume-description)  
-- [Contact](#contact)  
+- [Learning Outcomes](#learning-outcomes)     
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)  
 
 ---
 
@@ -172,18 +171,6 @@ By completing this lab, I gained the following skills:
 ✅ Cracking Encryption Keys – Learned how dictionary attacks and IV collection work against WPA2 and WEP.
 ✅ Ethical Hacking Techniques – Performed deauthentication attacks and rogue AP simulations.
 ✅ Understanding Countermeasures – Explored network defense strategies, including WPA3, VPNs, and intrusion detection.
-
----
-
-## 🖼️ Screenshots
-The screenshots are atttached in the `screenshots` folder.
-
----
-
-
-## 📄 Resume Description
-
-"Conducted hands-on penetration testing of Wi-Fi networks, assessing vulnerabilities in WEP and WPA2 encryption. Executed packet sniffing, dictionary attacks, and deauthentication exploits using Aircrack-ng, Wireshark, and Scapy. Simulated rogue access points to analyze client behavior and proposed countermeasures to mitigate security risks. Documented findings in a structured report with technical analysis and recommendations."
 
 ---
 
