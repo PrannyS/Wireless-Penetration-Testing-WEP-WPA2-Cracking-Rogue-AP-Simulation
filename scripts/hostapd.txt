@@ -1,0 +1,12 @@
+ctrl_interface=/var/run/hostapd
+driver=nl80211
+ssid=<target AP>
+channel=<target channel>
+hw_mode=g
+ieee80211n=1
+ieee80211w=2
+auth_algs=< target algorithm >
+wpa=< target WPA version >
+wpa_key_mgmt=< target MGMT >
+rsn_pairwise=< target paiwise >
+wpa_passphrase=< target password >
