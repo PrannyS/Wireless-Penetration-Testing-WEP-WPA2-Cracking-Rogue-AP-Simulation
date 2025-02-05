@@ -1,0 +1,11 @@
+aircrack-ng
+wireshark
+scapy
+
+# Install hostapd
+# sudo apt - get install dnsmasq apache2 iptables libnl-genl-3-dev
+# wget "https://w1.fi/cgit/hostap/snapshot/hostap_2_9.tar.gz "
+# tar - xvf hostap_2_9.tar.gz
+# cd hostap_2_9/hostapd/
+# cp defconfig.config
+# make
