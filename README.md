@@ -3,7 +3,7 @@
 ![Tech](https://img.shields.io/badge/Tools-Aircrack--ng%20%7C%20Wireshark%20%7C%20Scapy-blue)  
 
 ## 📌 Overview  
-This repository contains my submission for **Lab 4: Wi-Fi Security**, where I explored vulnerabilities in wireless networks, including:  
+This repository contains a **Wi-Fi Security project**, where I explored vulnerabilities in wireless networks, including:  
 - Cracking WEP encryption  
 - Cracking WPA2 encryption  
 - Performing deauthentication attacks  
@@ -36,11 +36,9 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 ## 📂 Files Included  
 | File Name | Description |  
 |-----------|------------|  
-| `Group11_Lab4.pdf` | Detailed report with methodology and findings |  
-| `Lab4_wifi_Fall2024.pdf` | Original lab instructions |  
-| `scripts/deauth-students.py` | Python script for deauthentication attack |  
-| `captures/wep_crack.pcap` | Packet capture file used for WEP cracking |  
-| `captures/wpa_handshake.pcap` | Packet capture file containing WPA handshake |  
+| `captures/*` | All the required captures to execute this attack |  
+| `scripts/deauth.py` | Python script for deauthentication attack |   
+| `scripts/hostapd.txt` | Configuration file for creating a rogue AP | 
 | `wordlists/passwords.txt` | Wordlist used for WPA cracking |  
 
 ---
@@ -154,17 +152,17 @@ sudo hostapd hostapd.conf
 
 ## ⚖️ Ethical Considerations
 
-⚠️ Disclaimer: This project was conducted in a controlled lab environment as part of an exercise in cybersecurity. Unauthorized Wi-Fi penetration testing is illegal without explicit permission. The purpose of this lab was to understand security weaknesses and develop skills for ethical hacking and cybersecurity defense."
+⚠️ Disclaimer: This project was conducted in a controlled lab environment as part of an exercise in cybersecurity. Unauthorized Wi-Fi penetration testing is illegal without explicit permission. The purpose of this project was to understand security weaknesses and develop skills for ethical hacking and cybersecurity defense."
 
 ### Key ethical principles followed:
 
 ✅ Responsible Disclosure – Understanding vulnerabilities to help secure networks.
 ✅ No Unauthorized Testing – Experiments were performed in a controlled environment with instructor approval.
-✅ Security Awareness – The findings from this lab help reinforce best security practices for network protection.
+✅ Security Awareness – The findings from this project help reinforce best security practices for network protection.
 
 ## 🎯 Learning Outcomes
 
-By completing this lab, I gained the following skills:
+By completing this project I gained the following skills:
 
 ✅ Hands-on experience with Wi-Fi security – Analyzed encryption flaws in WEP and WPA2.
 ✅ Packet Sniffing & Analysis – Used Wireshark to capture and inspect wireless traffic.
@@ -185,4 +183,4 @@ Parts of this lab were originally written by Simon Thoustrup, Sigurd Hilbert Mad
 W¨urtz. Later on, parts of these exercises were re-written/edited by Kasper Rasmussen and then edited
 by Davide Zanetti, Ghassan Karame, Luka Maliˇsa, Joel Reardon and Nikos Karapanos. Addition of the
 deauthentication attack, has been done by Domien Schepers, while addition of the rogue access points and
-latest editing/updating of all sections has been done by Evangelos Bitsikas. This lab was completed under the supervision of Dr. Aanjhan Ranganathan.
+latest editing/updating of all sections has been done by Evangelos Bitsikas. This project was completed under the supervision of Dr. Aanjhan Ranganathan.
