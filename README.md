@@ -177,13 +177,13 @@ By completing this project I gained the following skills:
 
 ---
 
-### Contact
+## Contact
 For any inquiries, feel free to reach out via:
 📌 LinkedIn: www.linkedin.com/in/pranavs07
 
 ---
 
-### Acknowledgements
+## Acknowledgements
 Parts of this lab were originally written by Simon Thoustrup, Sigurd Hilbert Madsen and Frej Laursen
 W¨urtz. Later on, parts of these exercises were re-written/edited by Kasper Rasmussen and then edited
 by Davide Zanetti, Ghassan Karame, Luka Maliˇsa, Joel Reardon and Nikos Karapanos. Addition of the
