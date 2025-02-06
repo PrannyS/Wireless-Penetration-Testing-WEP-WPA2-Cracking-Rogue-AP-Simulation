@@ -1,6 +1,6 @@
 # Wireless Penetration Testing: WEP/WPA2 Cracking & Rogue AP Simulation
 ![Status](https://img.shields.io/badge/Status-Completed-green)  
-![Tech](https://img.shields.io/badge/Tools-Aircrack--ng%20%7C%20Wireshark%20%7C%20Scapy-blue)  
+![Tech](https://img.shields.io/badge/Tools-Aircrack--ng%2C%20Wireshark%2C%20Scapy%2C%20Python%20-%20blue)  
 
 ## 📌 Overview  
 This repository contains a **Wi-Fi Security project**, where I explored vulnerabilities in wireless networks, including:  
