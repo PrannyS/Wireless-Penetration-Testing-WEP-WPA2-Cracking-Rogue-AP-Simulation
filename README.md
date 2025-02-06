@@ -14,24 +14,24 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 ---
 
 ## 📖 Table of Contents  
-- [Key Topics Covered](#🛠-key-topics-covered)  
-- [Files Included](#📂-files-included)  
-- [Tools & Technologies Used](#🔧-tools--technologies-used)  
-- [Methodology](#🔍-methodology)  
+- [Key Topics Covered](#key-topics-covered)  
+- [Files Included](#files-included)  
+- [Tools & Technologies Used](#tools--technologies-used)  
+- [Methodology](#methodology)  
   - [Environment Setup](#0️⃣-environment-setup)  
   - [Cracking WEP Encryption](#1️⃣-cracking-wep-encryption)  
   - [Cracking WPA2 Encryption](#2️⃣-cracking-wpa2-encryption)  
   - [Deauthentication Attack](#3️⃣-deauthentication-attack)  
   - [Rogue Access Point Attack](#4️⃣-rogue-access-point-attack)  
-- [Ethical Considerations](#⚖️-ethical-considerations)  
-- [Learning Outcomes](#🎯-learning-outcomes)  
-- [Contact](#📩 -contact)  
-- [Acknowledgements](#📚-acknowledgements)  
+- [Ethical Considerations](#ethical-considerations)  
+- [Learning Outcomes](#learning-outcomes)  
+- [Contact](#contact)  
+- [Acknowledgements](#acknowledgements)  
  
 
 ---
 
-## 🛠 Key Topics Covered  
+## Key Topics Covered  
 - **Cracking WEP Encryption**: Used `aircrack-ng` to recover WEP keys by analyzing captured IVs.  
 - **Breaking WPA2-PSK Encryption**: Captured WPA2 handshake and used dictionary attacks.  
 - **Deauthentication Attacks**: Exploited CVE-2019-16275 to disconnect clients from a Wi-Fi network.  
@@ -39,7 +39,7 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 
 ---
 
-## 📂 Files Included  
+## Files Included  
 | File Name | Description |  
 |-----------|------------|  
 | `captures/*` | All the required captures to execute this attack |  
@@ -49,7 +49,7 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 
 ---
 
-## 🔧 Tools & Technologies Used  
+## Tools & Technologies Used  
 - **Aircrack-ng Suite** (`Airmon-ng`, `Airodump-ng`, `Aircrack-ng`, `Aireplay-ng`)  
 - **Wireshark** – Network packet analysis  
 - **Scapy** – Packet manipulation & forging  
@@ -59,7 +59,7 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 
 ---
 
-## 🔍 Methodology  
+## Methodology  
 
 ### **0️⃣ Environment Setup**
 
@@ -155,7 +155,7 @@ sudo hostapd hostapd.conf
 
 ---
 
-## ⚖️ Ethical Considerations
+## Ethical Considerations
 
 ⚠️ Disclaimer: This project was conducted in a controlled lab environment as part of an exercise in cybersecurity. Unauthorized Wi-Fi penetration testing is illegal without explicit permission. The purpose of this project was to understand security weaknesses and develop skills for ethical hacking and cybersecurity defense."
 
@@ -165,7 +165,7 @@ sudo hostapd hostapd.conf
 ✅ No Unauthorized Testing – Experiments were performed in a controlled environment with instructor approval.
 ✅ Security Awareness – The findings from this project help reinforce best security practices for network protection.
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 By completing this project I gained the following skills:
 
@@ -177,13 +177,13 @@ By completing this project I gained the following skills:
 
 ---
 
-### 📩 Contact
+### Contact
 For any inquiries, feel free to reach out via:
 📌 LinkedIn: www.linkedin.com/in/pranavs07
 
 ---
 
-### 📚 Acknowledgements
+### Acknowledgements
 Parts of this lab were originally written by Simon Thoustrup, Sigurd Hilbert Madsen and Frej Laursen
 W¨urtz. Later on, parts of these exercises were re-written/edited by Kasper Rasmussen and then edited
 by Davide Zanetti, Ghassan Karame, Luka Maliˇsa, Joel Reardon and Nikos Karapanos. Addition of the
