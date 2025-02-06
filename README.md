@@ -14,14 +14,20 @@ This project demonstrates **ethical hacking techniques** used in penetration tes
 ---
 
 ## 📖 Table of Contents  
-- [Key Topics Covered](#key-topics-covered)  
-- [Files Included](#files-included)  
-- [Tools & Technologies Used](#tools--technologies-used)  
-- [Methodology](#methodology)  
-- [Ethical Considerations](#ethical-considerations)  
-- [Learning Outcomes](#learning-outcomes)     
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)  
+- [Key Topics Covered](#🛠-key-topics-covered)  
+- [Files Included](#📂-files-included)  
+- [Tools & Technologies Used](#🔧-tools--technologies-used)  
+- [Methodology](#🔍-methodology)  
+  - [Environment Setup](#0️⃣-environment-setup)  
+  - [Cracking WEP Encryption](#1️⃣-cracking-wep-encryption)  
+  - [Cracking WPA2 Encryption](#2️⃣-cracking-wpa2-encryption)  
+  - [Deauthentication Attack](#3️⃣-deauthentication-attack)  
+  - [Rogue Access Point Attack](#4️⃣-rogue-access-point-attack)  
+- [Ethical Considerations](#⚖️-ethical-considerations)  
+- [Learning Outcomes](#🎯-learning-outcomes)  
+- [Contact](#📩 -contact)  
+- [Acknowledgements](#📚-acknowledgements)  
+ 
 
 ---
 
@@ -114,7 +120,6 @@ sudo airodump - ng wlan0mon -w <dump_file > -c <channel>
 # Crack WPA2 password
 sudo aircrack - ng -a 2 -b < AP_MAC_address > -w <word_file> <dump_file> (I used passwords.txt as the word file) 
 ```
-- 
 
 ### 3️⃣ Deauthentication Attack
 - Used aireplay-ng to send deauthentication frames, disconnecting clients.
